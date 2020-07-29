@@ -1,0 +1,54 @@
+img {
+    max-width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    display: block;
+}
+
+h1 {
+   text-align: center;
+   font-weight: bold;
+   font-size: 2em;
+}
+
+h5 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+
+@media screen and (max-width: 1000px) {
+    .teks {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .teks {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
